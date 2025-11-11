@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35828.75 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiftDataIntegration.Data", "LiftDataIntegration.Data\LiftDataIntegration.Data.csproj", "{10557E23-C037-4BF9-A195-8907E7884DE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiftDataIntegration.Entity", "LiftDataIntegration.Entity\LiftDataIntegration.Entity.csproj", "{0DE63385-D819-4D4A-8EC6-2C28B5E963C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiftDataIntegration.Infrastructure", "LiftDataIntegration.Infrastructure\LiftDataIntegration.Infrastructure.csproj", "{9ADC262C-AA17-4EA9-9E86-BC891F9B4B4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiftDataIntegration.Service", "LiftDataIntegration.Service\LiftDataIntegration.Service.csproj", "{8A1D4F57-8B15-468B-A149-9437B0947EF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiftDataIntegration.FileUpload", "LiftDataIntegration.FileUpload\LiftDataIntegration.FileUpload.csproj", "{644CE766-AF0A-4BDD-81BA-A847EAEBC594}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiftDataIntegration.FunctionApp", "LiftDataIntegration.FunctionApp\LiftDataIntegration.FunctionApp.csproj", "{6CA1C1E7-7F26-46DC-82B0-0403514D159F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10557E23-C037-4BF9-A195-8907E7884DE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10557E23-C037-4BF9-A195-8907E7884DE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10557E23-C037-4BF9-A195-8907E7884DE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10557E23-C037-4BF9-A195-8907E7884DE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DE63385-D819-4D4A-8EC6-2C28B5E963C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DE63385-D819-4D4A-8EC6-2C28B5E963C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DE63385-D819-4D4A-8EC6-2C28B5E963C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DE63385-D819-4D4A-8EC6-2C28B5E963C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ADC262C-AA17-4EA9-9E86-BC891F9B4B4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ADC262C-AA17-4EA9-9E86-BC891F9B4B4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ADC262C-AA17-4EA9-9E86-BC891F9B4B4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ADC262C-AA17-4EA9-9E86-BC891F9B4B4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A1D4F57-8B15-468B-A149-9437B0947EF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A1D4F57-8B15-468B-A149-9437B0947EF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A1D4F57-8B15-468B-A149-9437B0947EF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A1D4F57-8B15-468B-A149-9437B0947EF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{644CE766-AF0A-4BDD-81BA-A847EAEBC594}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{644CE766-AF0A-4BDD-81BA-A847EAEBC594}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{644CE766-AF0A-4BDD-81BA-A847EAEBC594}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{644CE766-AF0A-4BDD-81BA-A847EAEBC594}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CA1C1E7-7F26-46DC-82B0-0403514D159F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CA1C1E7-7F26-46DC-82B0-0403514D159F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CA1C1E7-7F26-46DC-82B0-0403514D159F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CA1C1E7-7F26-46DC-82B0-0403514D159F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25FCC595-DF82-47D9-BE16-30D0BA828ADD}
+	EndGlobalSection
+EndGlobal
