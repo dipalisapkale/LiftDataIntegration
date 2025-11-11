@@ -1,0 +1,14 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/LiftDataIntegration/LiftDataIntegration.Data/bin/Debug/net8.0
+/LiftDataIntegration/LiftDataIntegration.Data/obj
+/LiftDataIntegration/LiftDataIntegration.FileUpload/bin/Debug/net8.0
+/LiftDataIntegration/LiftDataIntegration.Infrastructure/bin/Debug/net8.0
+/LiftDataIntegration/LiftDataIntegration.Infrastructure/obj
+/LiftDataIntegration/LiftDataIntegration.Service/obj
+/LiftDataIntegration/LiftDataIntegration.Service/bin/Debug/net8.0
+/LiftDataIntegration/LiftDataIntegration.FileUpload/obj
+/LiftDataIntegration/LiftDataIntegration.Entity/bin/Debug/net8.0
+/LiftDataIntegration/LiftDataIntegration.Entity/obj
