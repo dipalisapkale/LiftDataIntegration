@@ -12,3 +12,7 @@
 /LiftDataIntegration/LiftDataIntegration.FileUpload/obj
 /LiftDataIntegration/LiftDataIntegration.Entity/bin/Debug/net8.0
 /LiftDataIntegration/LiftDataIntegration.Entity/obj
+/LiftDataIntegration/LiftDataIntegration.Data/bin/Release/net8.0
+/LiftDataIntegration/LiftDataIntegration.Entity/bin/Release/net8.0
+/LiftDataIntegration/LiftDataIntegration.Service/bin/Release/net8.0
+/LiftDataIntegration/LiftDataIntegration.Infrastructure/bin/Release/net8.0
