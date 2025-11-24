@@ -10,6 +10,7 @@ using LiftDataIntegration.Entity.Model;
 using LiftDataIntegration.Infrastructure.Interface;
 using ClosedXML.Excel;
 using Microsoft.Data.SqlClient;
+using DocumentFormat.OpenXml.Presentation;
 
 namespace LiftDataIntegration.Data
 {
@@ -32,7 +33,7 @@ namespace LiftDataIntegration.Data
             try
             {
                 string query = "SaveIntegrationData";
-               
+
 
                 foreach (var row in worksheet.RowsUsed().Skip(1))
                 {
@@ -74,7 +75,7 @@ namespace LiftDataIntegration.Data
                     cmd.Parameters.Add(new SqlParameter("@Street", row.Cell(33).GetString()));
                     cmd.Parameters.Add(new SqlParameter("@City", row.Cell(34).GetString()));
                     cmd.Parameters.Add(new SqlParameter("@PostalCode", row.Cell(35).GetString()));
-                    cmd.Parameters.Add(new SqlParameter("@StateProvince", row.Cell(36).GetString()));                    
+                    cmd.Parameters.Add(new SqlParameter("@StateProvince", row.Cell(36).GetString()));
                     cmd.Parameters.Add(new SqlParameter("@UnitNo", row.Cell(37).GetString()));
                     cmd.Parameters.Add(new SqlParameter("@BuildingAddress", row.Cell(38).GetString()));
 
@@ -90,5 +91,47 @@ namespace LiftDataIntegration.Data
 
             return i;
         }
+
+
+
+        public int SaveUnitRunData(IXLWorksheet worksheet)
+        {
+            int i = 0;
+            try
+            {
+                string query = "SaveUnitRunData";
+
+
+                foreach (var row in worksheet.RowsUsed().Skip(1))
+                {
+                    SqlCommand cmd = new SqlCommand(query);
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.Add(new SqlParameter("@EquipmentNo", row.Cell(1).GetString()));
+                    cmd.Parameters.Add(new SqlParameter("@DateTime", Convert.ToDateTime(row.Cell(2).GetString())));
+                    cmd.Parameters.Add(new SqlParameter("@RunNo ", Convert.ToInt32(row.Cell(3).GetString())));
+                    cmd.Parameters.Add(new SqlParameter("@RunStartTime",Convert.ToDateTime (row.Cell(4).GetString())));
+                    cmd.Parameters.Add(new SqlParameter("@RunEndTime",Convert.ToDateTime(row.Cell(5).GetString())));
+                    cmd.Parameters.Add(new SqlParameter("@NoOfStops",Convert.ToInt32(row.Cell(6).GetString())));
+                    cmd.Parameters.Add(new SqlParameter("@SpeedOfRun",Convert.ToDecimal(row.Cell(7).GetString())));
+                    cmd.Parameters.Add(new SqlParameter("@StartFloorNo",Convert.ToInt32(row.Cell(8).GetString())));
+                    cmd.Parameters.Add(new SqlParameter("@EndFloorNo", Convert.ToInt32(row.Cell(9).GetString())));
+                    cmd.Parameters.Add(new SqlParameter("@NoOfFloor", Convert.ToInt32(row.Cell(10).GetString())));
+                    cmd.Parameters.Add(new SqlParameter("@CallingFloor", Convert.ToInt32(row.Cell(11).GetString())));
+                
+                    _dataConnect.ExecuteSqlQuery(cmd);
+                }
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            return i;
+
+        }
     }
+
 }
+
+
+

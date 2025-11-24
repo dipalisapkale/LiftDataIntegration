@@ -11,6 +11,6 @@ namespace LiftDataIntegration.Service
     public interface IIntegrationService
     {
         public int SaveIntegrationService(IXLWorksheet worksheet);
-
+        public int SaveRunUnitData(IXLWorksheet worksheet);
     }
 }

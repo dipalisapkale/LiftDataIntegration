@@ -23,9 +23,9 @@ namespace LiftDataIntegration.FileUpload
             try
             {
                 // Azure Data Lake info
-                string storageAccountName = "storageaccountdatalake18"; // e.g. mystorageacct
+                string storageAccountName = "demodatalakeaccount"; // e.g. mystorageacct
                 string fileSystemName = "mycontainer"; // container name
-                string folderName = "integrationfiles"; // folder inside container (optional)
+                string folderName = "mydirectory"; // folder inside container (optional)
                                                         //string localFilePath = @"C:\DataLakeFile\unitbuildingcontract_filled.xlsx"; // local Excel file
                 string localFolderPath = @"C:\DataLakeFile"; // local Excel file
 

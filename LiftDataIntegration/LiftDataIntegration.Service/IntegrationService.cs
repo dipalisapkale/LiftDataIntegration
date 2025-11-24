@@ -26,5 +26,13 @@ namespace LiftDataIntegration.Service
 
         }
 
+        public int SaveRunUnitData(IXLWorksheet worksheet)
+
+        {
+            var result = _integrationData.SaveUnitRunData(worksheet);
+            return result;
+
+        }
+
     }
 }

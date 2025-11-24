@@ -12,8 +12,7 @@ namespace LiftDataIntegration.Entity.Model
         public int UnitId { get; set; }
         public int BuildingId { get; set; }
         public string EquipmentNo { get; set; }
-        public string UnitDisplayName { get; set; }
-
+        
         public string UnitType { get; set; }
 
         public string ProductId { get; set; }

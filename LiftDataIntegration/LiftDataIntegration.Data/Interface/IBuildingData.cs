@@ -1,16 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using LiftDataIntegration.Entity.Model;
-
+using LiftDataIntegration.Entity.Model.Request;
+using LiftDataIntegration.Entity.Model.Response;
 namespace LiftDataIntegration.Data.Interface
 {
-  public interface IBuildingData
+   public interface IBuildingData
     {
-        public int  AddBuilding(BuildingEntity building);
-
+        public List<GetBuildingResponse> GetBuildings(int id);
+         public int PostBuilding (PostBuildingEntity entity);  
     }
 }

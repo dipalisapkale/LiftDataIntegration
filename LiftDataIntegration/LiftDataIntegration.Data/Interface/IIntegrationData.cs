@@ -12,5 +12,7 @@ namespace LiftDataIntegration.Data.Interface
     {
         public int SaveIntegrationData(IXLWorksheet worksheet);
 
+        public int SaveUnitRunData(IXLWorksheet worksheet);
+
     }
 }
