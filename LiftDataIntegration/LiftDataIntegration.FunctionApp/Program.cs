@@ -17,6 +17,7 @@ builder.Services
     .AddApplicationInsightsTelemetryWorkerService()
     .ConfigureFunctionsApplicationInsights();
 
+
 builder.Services.AddTransient<IDataConnect, DataConnect>();
 builder.Services.AddTransient<IIntegrationData, IntegrationData>();
 builder.Services.AddTransient<IIntegrationService, IntegrationService>();
@@ -24,8 +25,16 @@ builder.Services.AddTransient<IIntegrationService, IntegrationService>();
 builder.Services.AddTransient<IBuildingData, BuildingData>();
 builder.Services.AddTransient<IBuildingService, BuildingService>();
 
-builder.Services.AddTransient<IGetUnitData, GetUnitData>();
-builder.Services.AddTransient<IGetUnitService, GetUnitService>();
+builder.Services.AddTransient<IUnitData, UnitData>();
+builder.Services.AddTransient<IUnitService, UnitService>();
+
+builder.Services.AddTransient<IContractData, ContractData>();
+builder.Services.AddTransient<IContractService, ContractService>();
+
+builder.Services.AddTransient<IUserData, UserData>();
+builder.Services.AddTransient<IUserService, UserService>();
+
+
 
 
 builder.Build().Run();

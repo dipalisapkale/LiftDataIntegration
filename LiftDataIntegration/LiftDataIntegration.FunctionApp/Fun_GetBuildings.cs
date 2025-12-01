@@ -18,6 +18,7 @@ public class Fun_GetBuildings
     }
 
     [Function("Fun_GetBuildings")]
+    
     public async Task<IActionResult> Run([HttpTrigger(AuthorizationLevel.Function, "get")] HttpRequest req,string id)
     {
         _logger.LogInformation("C# HTTP trigger function processed a request.");
@@ -27,20 +28,6 @@ public class Fun_GetBuildings
             int Id = Convert.ToInt32(ID);
 
         var result = _buildingGetAllService.GetBuildings(Id);
-
-
-        //if (string.IsNullOrEmpty(id))
-        //{
-        //    var result = _buildingGetAllService.GetAllBuildings();
-        //}
-        //else
-        //{
-
-        //    string Id = (req.Query["id"]);
-
-        //    int Id = Convert.ToInt32(Id);
-        //    var result = _buildingGetAllService.GetBuildingsById(Id );
-        //}
         return new OkObjectResult(result);
     }
 }

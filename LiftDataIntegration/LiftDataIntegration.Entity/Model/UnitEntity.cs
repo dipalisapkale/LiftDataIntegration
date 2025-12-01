@@ -18,8 +18,7 @@ namespace LiftDataIntegration.Entity.Model
         public string ProductId { get; set; }
         public int NumberOfFloors { get; set; }
         public string PremiumStatus { get; set; }
-        public bool IsLinkable { get; set; }
-        public bool OtisOne { get; set; }
+        public bool IsLinkable { get; set; }        
         public string RouteNo { get; set; }
         public DateTime DateInstalled { get; set; }
 

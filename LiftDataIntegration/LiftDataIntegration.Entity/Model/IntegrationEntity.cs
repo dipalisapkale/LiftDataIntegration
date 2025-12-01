@@ -37,8 +37,7 @@ namespace LiftDataIntegration.Entity.Model
         public string ProductId { get; set; }
         public string NumberOfFloors { get; set; }
         public string PremiumStatus { get; set; }
-        public bool IsLinkable { get; set; }
-        public bool OtisOne { get; set; }
+        public bool IsLinkable { get; set; }        
         public string RouteNo { get; set; }
         public string DateInstalled { get; set; }
         public DateTime DateModified { get; set; }
@@ -50,24 +49,8 @@ namespace LiftDataIntegration.Entity.Model
 
         public DateTime ContractDate { get; set; }
         public DateTime ContractExpiryDate { get; set; }
-        public bool Elite { get; set; }
-        public DateTime EliteSubscriptionDate { get; set; }
 
-        public DateTime EliteNonSubscriptionDate { get; set; }
-
-        public DateTime NISExpirationDate { get; set; }
-
-        public bool MPDFlag { get; set; }
-
-        public bool EcallFlag { get; set; }
-
-        public bool REIEnabled { get; set; }
-
-        public bool ActiveFlag { get; set; }
-
-        public int RunId { get; set; }
-       
-        
+        public int RunId { get; set; }      
         public int RunNo { get; set; }
 
         public DateTime RunDate { get; set; }

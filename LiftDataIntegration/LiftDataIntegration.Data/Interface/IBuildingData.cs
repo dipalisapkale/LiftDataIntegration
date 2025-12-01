@@ -12,5 +12,9 @@ namespace LiftDataIntegration.Data.Interface
     {
         public List<GetBuildingResponse> GetBuildings(int id);
          public int PostBuilding (PostBuildingEntity entity);  
+
+        public int UpdateBuilding(UpdateBuildingEntity Entity);
+
+        public int ChangeStatus(ChangeStatusEntity statusEntity);
     }
 }

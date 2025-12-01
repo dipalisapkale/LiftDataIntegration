@@ -34,7 +34,18 @@ namespace LiftDataIntegration.Service
             return result;
         }
 
+        public int UpdateBuilding(UpdateBuildingEntity Entity)
+        {
+            var result = _buildingData.UpdateBuilding(Entity);
+            return result;
 
+        }
+        public int ChangeStatus(ChangeStatusEntity statusEntity)
+        {
+            var result = _buildingData.ChangeStatus(statusEntity);
+            return result;
+
+        }
     }
 
 }

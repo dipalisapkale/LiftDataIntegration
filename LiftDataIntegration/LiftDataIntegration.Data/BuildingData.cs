@@ -30,7 +30,7 @@ namespace LiftDataIntegration.Data
             try
             {
                 using (SqlCommand cmd = new SqlCommand("GetBuildings"))
-                {                  
+                {
                     cmd.CommandType = CommandType.StoredProcedure;
                     cmd.Parameters.Add(new SqlParameter("@BuildingID", id));
                     var dt = _dataConnect.GetDataTable(cmd);
@@ -93,10 +93,67 @@ namespace LiftDataIntegration.Data
             }
             return i;
         }
+
+
+
+        public int UpdateBuilding(UpdateBuildingEntity Entity)
+        {
+            int i = 0;
+            try
+            {
+                using (SqlCommand command = new SqlCommand("UpdateBuilding"))
+                {
+                    command.CommandType = CommandType.StoredProcedure;
+                    command.Parameters.Add(new SqlParameter("@BuildingId", Entity.BuildingId));
+                    command.Parameters.Add(new SqlParameter("@BuildingName", Entity.BuildingName));
+                    command.Parameters.Add(new SqlParameter("@HouseNo", Entity.HouseNo));
+                    command.Parameters.Add(new SqlParameter("@Street", Entity.Street));
+                    command.Parameters.Add(new SqlParameter("@City", Entity.City));
+                    command.Parameters.Add(new SqlParameter("@PostalCode", Entity.PostalCode));
+                    command.Parameters.Add(new SqlParameter("@StateProvince", Entity.StateProvince));
+                    command.Parameters.Add(new SqlParameter("@CountryCode", Entity.CountryCode));
+                    command.Parameters.Add(new SqlParameter("@BuildingNo", Entity.BuildingNo));
+                    command.Parameters.Add(new SqlParameter("@BuildingAddress", Entity.BuildingAddress));
+                    command.Parameters.Add(new SqlParameter("@SiteId", Entity.SiteId));
+
+                    _dataConnect.ExecuteSqlQuery(command);
+                }
+
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            return i;
+
+        }
+        public int ChangeStatus(ChangeStatusEntity statusEntity)
+        {
+            int i = 0;
+            try
+            {
+                using (SqlCommand command = new SqlCommand("ChangeStatus"))
+                {
+                    command.CommandType = CommandType.StoredProcedure;
+                    command.Parameters.Add(new SqlParameter("@BuildingId", statusEntity.BuildingId));
+                    command.Parameters.Add(new SqlParameter("@IsEnable", statusEntity.IsEnable));
+                    _dataConnect.ExecuteSqlQuery(command);
+                }
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            return i;
+        }
+
+
+
     }
+
 }
-
-
 
 
 
