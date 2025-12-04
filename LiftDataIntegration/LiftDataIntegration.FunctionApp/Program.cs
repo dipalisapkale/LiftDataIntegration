@@ -35,6 +35,11 @@ builder.Services.AddTransient<IUserData, UserData>();
 builder.Services.AddTransient<IUserService, UserService>();
 
 
+builder.Services.AddTransient<IDashboardData, DashboardData>();
+builder.Services.AddTransient<IDashboardService, DashboardService>();
+
+builder.Services.AddTransient<ILiftRunData, LiftRunData>();
+builder.Services.AddTransient<ILiftRunService, LiftRunService>();
 
 
 builder.Build().Run();

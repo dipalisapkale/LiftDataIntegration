@@ -3,8 +3,72 @@
   "WorkspaceRootPath": "D:\\Git_Repo_11112025\\LiftDataIntegration\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Git_Repo_11112025\\LiftDataIntegration\\LiftDataIntegration.FunctionApp\\Fun_GetLiftRun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LiftDataIntegration.FunctionApp\\Fun_GetLiftRun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6CA1C1E7-7F26-46DC-82B0-0403514D159F}|LiftDataIntegration.FunctionApp\\LiftDataIntegration.FunctionApp.csproj|d:\\git_repo_11112025\\liftdataintegration\\liftdataintegration.functionapp\\fun_getbuildings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6CA1C1E7-7F26-46DC-82B0-0403514D159F}|LiftDataIntegration.FunctionApp\\LiftDataIntegration.FunctionApp.csproj|solutionrelative:liftdataintegration.functionapp\\fun_getbuildings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Git_Repo_11112025\\LiftDataIntegration\\LiftDataIntegration.Data\\Interface\\ILiftRunData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LiftDataIntegration.Data\\Interface\\ILiftRunData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Git_Repo_11112025\\LiftDataIntegration\\LiftDataIntegration.Entity\\Model\\Response\\GetLiftRunEntity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LiftDataIntegration.Entity\\Model\\Response\\GetLiftRunEntity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10557E23-C037-4BF9-A195-8907E7884DE2}|LiftDataIntegration.Data\\LiftDataIntegration.Data.csproj|d:\\git_repo_11112025\\liftdataintegration\\liftdataintegration.data\\buildingdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10557E23-C037-4BF9-A195-8907E7884DE2}|LiftDataIntegration.Data\\LiftDataIntegration.Data.csproj|solutionrelative:liftdataintegration.data\\buildingdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10557E23-C037-4BF9-A195-8907E7884DE2}|LiftDataIntegration.Data\\LiftDataIntegration.Data.csproj|d:\\git_repo_11112025\\liftdataintegration\\liftdataintegration.data\\dashboarddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10557E23-C037-4BF9-A195-8907E7884DE2}|LiftDataIntegration.Data\\LiftDataIntegration.Data.csproj|solutionrelative:liftdataintegration.data\\dashboarddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA1C1E7-7F26-46DC-82B0-0403514D159F}|LiftDataIntegration.FunctionApp\\LiftDataIntegration.FunctionApp.csproj|d:\\git_repo_11112025\\liftdataintegration\\liftdataintegration.functionapp\\fun_getdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CA1C1E7-7F26-46DC-82B0-0403514D159F}|LiftDataIntegration.FunctionApp\\LiftDataIntegration.FunctionApp.csproj|solutionrelative:liftdataintegration.functionapp\\fun_getdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA1C1E7-7F26-46DC-82B0-0403514D159F}|LiftDataIntegration.FunctionApp\\LiftDataIntegration.FunctionApp.csproj|d:\\git_repo_11112025\\liftdataintegration\\liftdataintegration.functionapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CA1C1E7-7F26-46DC-82B0-0403514D159F}|LiftDataIntegration.FunctionApp\\LiftDataIntegration.FunctionApp.csproj|solutionrelative:liftdataintegration.functionapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10557E23-C037-4BF9-A195-8907E7884DE2}|LiftDataIntegration.Data\\LiftDataIntegration.Data.csproj|d:\\git_repo_11112025\\liftdataintegration\\liftdataintegration.data\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10557E23-C037-4BF9-A195-8907E7884DE2}|LiftDataIntegration.Data\\LiftDataIntegration.Data.csproj|solutionrelative:liftdataintegration.data\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10557E23-C037-4BF9-A195-8907E7884DE2}|LiftDataIntegration.Data\\LiftDataIntegration.Data.csproj|d:\\git_repo_11112025\\liftdataintegration\\liftdataintegration.data\\unitdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10557E23-C037-4BF9-A195-8907E7884DE2}|LiftDataIntegration.Data\\LiftDataIntegration.Data.csproj|solutionrelative:liftdataintegration.data\\unitdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DE63385-D819-4D4A-8EC6-2C28B5E963C8}|LiftDataIntegration.Entity\\LiftDataIntegration.Entity.csproj|d:\\git_repo_11112025\\liftdataintegration\\liftdataintegration.entity\\model\\response\\liftusage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DE63385-D819-4D4A-8EC6-2C28B5E963C8}|LiftDataIntegration.Entity\\LiftDataIntegration.Entity.csproj|solutionrelative:liftdataintegration.entity\\model\\response\\liftusage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10557E23-C037-4BF9-A195-8907E7884DE2}|LiftDataIntegration.Data\\LiftDataIntegration.Data.csproj|d:\\git_repo_11112025\\liftdataintegration\\liftdataintegration.data\\interface\\idashboarddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10557E23-C037-4BF9-A195-8907E7884DE2}|LiftDataIntegration.Data\\LiftDataIntegration.Data.csproj|solutionrelative:liftdataintegration.data\\interface\\idashboarddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A1D4F57-8B15-468B-A149-9437B0947EF0}|LiftDataIntegration.Service\\LiftDataIntegration.Service.csproj|d:\\git_repo_11112025\\liftdataintegration\\liftdataintegration.service\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A1D4F57-8B15-468B-A149-9437B0947EF0}|LiftDataIntegration.Service\\LiftDataIntegration.Service.csproj|solutionrelative:liftdataintegration.service\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A1D4F57-8B15-468B-A149-9437B0947EF0}|LiftDataIntegration.Service\\LiftDataIntegration.Service.csproj|d:\\git_repo_11112025\\liftdataintegration\\liftdataintegration.service\\interface\\idashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A1D4F57-8B15-468B-A149-9437B0947EF0}|LiftDataIntegration.Service\\LiftDataIntegration.Service.csproj|solutionrelative:liftdataintegration.service\\interface\\idashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Git_Repo_11112025\\LiftDataIntegration\\LiftDataIntegration.Entity\\Model\\Request\\GetLiftRunRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LiftDataIntegration.Entity\\Model\\Request\\GetLiftRunRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Git_Repo_11112025\\LiftDataIntegration\\LiftDataIntegration.Data\\LiftRunData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LiftDataIntegration.Data\\LiftRunData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Git_Repo_11112025\\LiftDataIntegration\\LiftDataIntegration.Service\\LiftRunService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LiftDataIntegration.Service\\LiftRunService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,16 +86,208 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Fun_GetBuildings.cs",
               "DocumentMoniker": "D:\\Git_Repo_11112025\\LiftDataIntegration\\LiftDataIntegration.FunctionApp\\Fun_GetBuildings.cs",
               "RelativeDocumentMoniker": "LiftDataIntegration.FunctionApp\\Fun_GetBuildings.cs",
               "ToolTip": "D:\\Git_Repo_11112025\\LiftDataIntegration\\LiftDataIntegration.FunctionApp\\Fun_GetBuildings.cs",
               "RelativeToolTip": "LiftDataIntegration.FunctionApp\\Fun_GetBuildings.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAwwCAAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA9wBkAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T09:46:51.401Z",
+              "WhenOpened": "2025-12-03T11:48:37.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GetLiftRunRequest.cs",
+              "DocumentMoniker": "D:\\Git_Repo_11112025\\LiftDataIntegration\\LiftDataIntegration.Entity\\Model\\Request\\GetLiftRunRequest.cs",
+              "RelativeDocumentMoniker": "LiftDataIntegration.Entity\\Model\\Request\\GetLiftRunRequest.cs",
+              "ToolTip": "D:\\Git_Repo_11112025\\LiftDataIntegration\\LiftDataIntegration.Entity\\Model\\Request\\GetLiftRunRequest.cs",
+              "RelativeToolTip": "LiftDataIntegration.Entity\\Model\\Request\\GetLiftRunRequest.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAIAxwA4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T11:34:48.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserData.cs",
+              "DocumentMoniker": "D:\\Git_Repo_11112025\\LiftDataIntegration\\LiftDataIntegration.Data\\UserData.cs",
+              "RelativeDocumentMoniker": "LiftDataIntegration.Data\\UserData.cs",
+              "ToolTip": "D:\\Git_Repo_11112025\\LiftDataIntegration\\LiftDataIntegration.Data\\UserData.cs",
+              "RelativeToolTip": "LiftDataIntegration.Data\\UserData.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAmwFEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T07:32:20.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LiftRunData.cs",
+              "DocumentMoniker": "D:\\Git_Repo_11112025\\LiftDataIntegration\\LiftDataIntegration.Data\\LiftRunData.cs",
+              "RelativeDocumentMoniker": "LiftDataIntegration.Data\\LiftRunData.cs",
+              "ToolTip": "D:\\Git_Repo_11112025\\LiftDataIntegration\\LiftDataIntegration.Data\\LiftRunData.cs",
+              "RelativeToolTip": "LiftDataIntegration.Data\\LiftRunData.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAIAxwCgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T04:49:39.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ILiftRunData.cs",
+              "DocumentMoniker": "D:\\Git_Repo_11112025\\LiftDataIntegration\\LiftDataIntegration.Data\\Interface\\ILiftRunData.cs",
+              "RelativeDocumentMoniker": "LiftDataIntegration.Data\\Interface\\ILiftRunData.cs",
+              "ToolTip": "D:\\Git_Repo_11112025\\LiftDataIntegration\\LiftDataIntegration.Data\\Interface\\ILiftRunData.cs",
+              "RelativeToolTip": "LiftDataIntegration.Data\\Interface\\ILiftRunData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T04:47:56.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetLiftRunEntity.cs",
+              "DocumentMoniker": "D:\\Git_Repo_11112025\\LiftDataIntegration\\LiftDataIntegration.Entity\\Model\\Response\\GetLiftRunEntity.cs",
+              "RelativeDocumentMoniker": "LiftDataIntegration.Entity\\Model\\Response\\GetLiftRunEntity.cs",
+              "ToolTip": "D:\\Git_Repo_11112025\\LiftDataIntegration\\LiftDataIntegration.Entity\\Model\\Response\\GetLiftRunEntity.cs",
+              "RelativeToolTip": "LiftDataIntegration.Entity\\Model\\Response\\GetLiftRunEntity.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAuwBQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T04:37:12.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LiftRunService.cs",
+              "DocumentMoniker": "D:\\Git_Repo_11112025\\LiftDataIntegration\\LiftDataIntegration.Service\\LiftRunService.cs",
+              "RelativeDocumentMoniker": "LiftDataIntegration.Service\\LiftRunService.cs",
+              "ToolTip": "D:\\Git_Repo_11112025\\LiftDataIntegration\\LiftDataIntegration.Service\\LiftRunService.cs",
+              "RelativeToolTip": "LiftDataIntegration.Service\\LiftRunService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAIAxwBUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T04:50:56.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Fun_GetLiftRun.cs",
+              "DocumentMoniker": "D:\\Git_Repo_11112025\\LiftDataIntegration\\LiftDataIntegration.FunctionApp\\Fun_GetLiftRun.cs",
+              "RelativeDocumentMoniker": "LiftDataIntegration.FunctionApp\\Fun_GetLiftRun.cs",
+              "ToolTip": "D:\\Git_Repo_11112025\\LiftDataIntegration\\LiftDataIntegration.FunctionApp\\Fun_GetLiftRun.cs",
+              "RelativeToolTip": "LiftDataIntegration.FunctionApp\\Fun_GetLiftRun.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAewBoAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T05:20:35.623Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Fun_GetDashboard.cs",
+              "DocumentMoniker": "D:\\Git_Repo_11112025\\LiftDataIntegration\\LiftDataIntegration.FunctionApp\\Fun_GetDashboard.cs",
+              "RelativeDocumentMoniker": "LiftDataIntegration.FunctionApp\\Fun_GetDashboard.cs",
+              "ToolTip": "D:\\Git_Repo_11112025\\LiftDataIntegration\\LiftDataIntegration.FunctionApp\\Fun_GetDashboard.cs",
+              "RelativeToolTip": "LiftDataIntegration.FunctionApp\\Fun_GetDashboard.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T07:49:06.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Git_Repo_11112025\\LiftDataIntegration\\LiftDataIntegration.FunctionApp\\Program.cs",
+              "RelativeDocumentMoniker": "LiftDataIntegration.FunctionApp\\Program.cs",
+              "ToolTip": "D:\\Git_Repo_11112025\\LiftDataIntegration\\LiftDataIntegration.FunctionApp\\Program.cs",
+              "RelativeToolTip": "LiftDataIntegration.FunctionApp\\Program.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAlwCkAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T11:57:19.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UnitData.cs",
+              "DocumentMoniker": "D:\\Git_Repo_11112025\\LiftDataIntegration\\LiftDataIntegration.Data\\UnitData.cs",
+              "RelativeDocumentMoniker": "LiftDataIntegration.Data\\UnitData.cs",
+              "ToolTip": "D:\\Git_Repo_11112025\\LiftDataIntegration\\LiftDataIntegration.Data\\UnitData.cs",
+              "RelativeToolTip": "LiftDataIntegration.Data\\UnitData.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T07:32:12.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BuildingData.cs",
+              "DocumentMoniker": "D:\\Git_Repo_11112025\\LiftDataIntegration\\LiftDataIntegration.Data\\BuildingData.cs",
+              "RelativeDocumentMoniker": "LiftDataIntegration.Data\\BuildingData.cs",
+              "ToolTip": "D:\\Git_Repo_11112025\\LiftDataIntegration\\LiftDataIntegration.Data\\BuildingData.cs",
+              "RelativeToolTip": "LiftDataIntegration.Data\\BuildingData.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAwwCIAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T07:31:18.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DashboardData.cs",
+              "DocumentMoniker": "D:\\Git_Repo_11112025\\LiftDataIntegration\\LiftDataIntegration.Data\\DashboardData.cs",
+              "RelativeDocumentMoniker": "LiftDataIntegration.Data\\DashboardData.cs",
+              "ToolTip": "D:\\Git_Repo_11112025\\LiftDataIntegration\\LiftDataIntegration.Data\\DashboardData.cs",
+              "RelativeToolTip": "LiftDataIntegration.Data\\DashboardData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T06:01:06.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DashboardService.cs",
+              "DocumentMoniker": "D:\\Git_Repo_11112025\\LiftDataIntegration\\LiftDataIntegration.Service\\DashboardService.cs",
+              "RelativeDocumentMoniker": "LiftDataIntegration.Service\\DashboardService.cs",
+              "ToolTip": "D:\\Git_Repo_11112025\\LiftDataIntegration\\LiftDataIntegration.Service\\DashboardService.cs",
+              "RelativeToolTip": "LiftDataIntegration.Service\\DashboardService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T07:42:33.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IDashboardData.cs",
+              "DocumentMoniker": "D:\\Git_Repo_11112025\\LiftDataIntegration\\LiftDataIntegration.Data\\Interface\\IDashboardData.cs",
+              "RelativeDocumentMoniker": "LiftDataIntegration.Data\\Interface\\IDashboardData.cs",
+              "ToolTip": "D:\\Git_Repo_11112025\\LiftDataIntegration\\LiftDataIntegration.Data\\Interface\\IDashboardData.cs",
+              "RelativeToolTip": "LiftDataIntegration.Data\\Interface\\IDashboardData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T06:05:43.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "liftusage.cs",
+              "DocumentMoniker": "D:\\Git_Repo_11112025\\LiftDataIntegration\\LiftDataIntegration.Entity\\Model\\Response\\liftusage.cs",
+              "RelativeDocumentMoniker": "LiftDataIntegration.Entity\\Model\\Response\\liftusage.cs",
+              "ToolTip": "D:\\Git_Repo_11112025\\LiftDataIntegration\\LiftDataIntegration.Entity\\Model\\Response\\liftusage.cs",
+              "RelativeToolTip": "LiftDataIntegration.Entity\\Model\\Response\\liftusage.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA6wA8AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T04:11:52.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IDashboardService.cs",
+              "DocumentMoniker": "D:\\Git_Repo_11112025\\LiftDataIntegration\\LiftDataIntegration.Service\\Interface\\IDashboardService.cs",
+              "RelativeDocumentMoniker": "LiftDataIntegration.Service\\Interface\\IDashboardService.cs",
+              "ToolTip": "D:\\Git_Repo_11112025\\LiftDataIntegration\\LiftDataIntegration.Service\\Interface\\IDashboardService.cs",
+              "RelativeToolTip": "LiftDataIntegration.Service\\Interface\\IDashboardService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T07:43:07.281Z"
             }
           ]
         }
