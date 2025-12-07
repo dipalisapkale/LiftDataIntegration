@@ -22,15 +22,23 @@ public class Fun_GetLiftRun
     [Function("Fun_GetLiftRun")]
     public IActionResult Run([HttpTrigger(AuthorizationLevel.Function, "get", "post")] HttpRequest req)
     {
-        _logger.LogInformation("C# HTTP trigger function processed a request.");
-        string No = (req.Query["EquipmentNo"]);
-        DateTime? RunDate =Convert.ToDateTime (req.Query["Date"]);
+        try
+        {
+            _logger.LogInformation("C# HTTP trigger function processed a request.");
+            string No = (req.Query["EquipmentNo"]);
+            DateTime? RunDate = Convert.ToDateTime(req.Query["Date"]);
 
-        GetLiftRunRequest request = new GetLiftRunRequest();
-        request.EquipmentNo = No;
-        request.Date = RunDate;
+            GetLiftRunRequest request = new GetLiftRunRequest();
+            request.EquipmentNo = No;
+            request.Date = RunDate;
 
-        var result = _liftRunService.GetLiftRun(request);
-        return new OkObjectResult(result);
+            var result = _liftRunService.GetLiftRun(request);
+            return new OkObjectResult(result);
+        }
+        catch (Exception ex)
+        {
+
+            return new OkObjectResult(new { status = 200, ex.Message });
+        }
     }
 }

@@ -21,12 +21,19 @@ public class Fun_AddUser
     [Function("Fun_AddUser")]
     public async Task <IActionResult> Run([HttpTrigger(AuthorizationLevel.Function, "get", "post")] HttpRequest req)
     {
-        _logger.LogInformation("C# HTTP trigger function processed a request.");
+        try
+        {
+            _logger.LogInformation("C# HTTP trigger function processed a request.");
 
-        var requestBody = await new StreamReader(req.Body).ReadToEndAsync();
-        var Data = JsonSerializer.Deserialize<AddUserEntity>(requestBody);
+            var requestBody = await new StreamReader(req.Body).ReadToEndAsync();
+            var Data = JsonSerializer.Deserialize<AddUserEntity>(requestBody);
 
-        var result = _userService.AddUser(Data);
-        return new OkObjectResult("Welcome to Azure Functions!");
+            var result = _userService.AddUser(Data);
+            return new OkObjectResult("Welcome to Azure Functions!");
+        }
+        catch (Exception ex)
+        {
+            return new OkObjectResult(new {status=200,message=ex.Message });
+        }
     }
 }

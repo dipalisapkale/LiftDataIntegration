@@ -52,7 +52,7 @@ namespace LiftDataIntegration.Data
                 }
 
             }
-            catch (Exception)
+            catch (Exception ex)
             {
 
                 throw;

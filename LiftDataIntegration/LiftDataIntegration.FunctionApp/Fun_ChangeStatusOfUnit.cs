@@ -21,11 +21,21 @@ public class Fun_ChangeStatusOfUnit
     [Function("Fun_ChangeStatusOfUnit")]
     public async Task<IActionResult> Run([HttpTrigger(AuthorizationLevel.Function, "get", "post")] HttpRequest req)
     {
-        _logger.LogInformation("C# HTTP trigger function processed a request.");
-        var requestbody= await new StreamReader(req.Body).ReadToEndAsync();
+        try
+        {
+            _logger.LogInformation("C# HTTP trigger function processed a request.");
+            var requestbody = await new StreamReader(req.Body).ReadToEndAsync();
 
-        var body = JsonSerializer.Deserialize<ChangeStatusOfUnitEntity>(requestbody);
-        var result =_unitService.ChangeStatusOfUnit(body);
-        return new OkObjectResult(result);
+            var body = JsonSerializer.Deserialize<ChangeStatusOfUnitEntity>(requestbody);
+            var result = _unitService.ChangeStatusOfUnit(body);
+            return new OkObjectResult(result);
+
+        }
+        catch (Exception ex)
+        {
+            return new OkObjectResult(new { status = 200, ex.Message });
+
+
+        }
     }
 }

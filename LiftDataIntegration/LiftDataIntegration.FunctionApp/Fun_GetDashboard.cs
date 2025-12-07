@@ -19,10 +19,18 @@ public class Fun_GetDashboard
     [Function("Fun_GetDashboard")]
     public async Task <IActionResult> Run([HttpTrigger(AuthorizationLevel.Function, "get", "post")] HttpRequest req)
     {
-        _logger.LogInformation("C# HTTP trigger function processed a request.");
+        try
+        {
+            _logger.LogInformation("C# HTTP trigger function processed a request.");
 
-        var result = _dashboardService.GetDashboard();
-        return new OkObjectResult(result);
+            var result = _dashboardService.GetDashboard();
+            return new OkObjectResult(result);
+        }
+        catch (Exception ex)
+        {
+
+            return new OkObjectResult(new { status = 200, ex.Message });
+        }
 
     }
 }

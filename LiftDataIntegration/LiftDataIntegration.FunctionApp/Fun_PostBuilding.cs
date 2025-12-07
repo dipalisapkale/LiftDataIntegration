@@ -23,12 +23,21 @@ public class Fun_PostBuilding
     [Function("Fun_PostBuilding")]
     public async Task <IActionResult> PostBuilding([HttpTrigger(AuthorizationLevel.Function, "post")] HttpRequest req)
     {
-        _logger.LogInformation("C# HTTP trigger function processed a request.");
+        try
+        {
+            _logger.LogInformation("C# HTTP trigger function processed a request.");
 
-        var requestBody = await new StreamReader(req.Body).ReadToEndAsync();
-        var Data = JsonSerializer.Deserialize<PostBuildingEntity>(requestBody);
+            var requestBody = await new StreamReader(req.Body).ReadToEndAsync();
+            var Data = JsonSerializer.Deserialize<PostBuildingEntity>(requestBody);
 
-        var result = _buildingService.PostBuilding(Data);
-        return new OkObjectResult(result);
+            var result = _buildingService.PostBuilding(Data);
+            return new OkObjectResult(result);
+
+        }
+        catch (Exception ex)
+        {
+
+            return new OkObjectResult(new {status=200,ex.Message});
+        }
     }
 }

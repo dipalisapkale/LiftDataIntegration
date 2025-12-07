@@ -19,12 +19,20 @@ public class Fun_GetContract
     [Function("Fun_GetContract")]
     public async Task <IActionResult> Run([HttpTrigger(AuthorizationLevel.Function, "get", "post")] HttpRequest req)
     {
-        _logger.LogInformation("C# HTTP trigger function processed a request.");
+        try
+        {
+            _logger.LogInformation("C# HTTP trigger function processed a request.");
 
-         int query = Convert.ToInt32(req.Query["id"]);
+            int query = Convert.ToInt32(req.Query["id"]);
 
-        var result = _contractService.GetContract(query);
+            var result = _contractService.GetContract(query);
 
-        return new OkObjectResult(result);
+            return new OkObjectResult(result);
+        }
+        catch (Exception ex)
+        {
+
+            return new OkObjectResult(new { status = 200, ex.Message });
+        }
     }
 }

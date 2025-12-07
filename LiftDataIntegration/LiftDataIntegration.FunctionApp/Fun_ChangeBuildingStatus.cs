@@ -21,11 +21,18 @@ public class Fun_ChangeBuildingStatus
     [Function("Fun_ChangeBuildingStatus")]
     public async Task <IActionResult> Run([HttpTrigger(AuthorizationLevel.Function, "get", "post")] HttpRequest req)
     {
-        _logger.LogInformation("C# HTTP trigger function processed a request.");
-        var reuestbody= await new StreamReader(req.Body).ReadToEndAsync();
-        var body = JsonSerializer.Deserialize<ChangeStatusEntity>(reuestbody);
-       var result = _buildingService.ChangeStatus(body);
+        try
+        {
+            _logger.LogInformation("C# HTTP trigger function processed a request.");
+            var reuestbody = await new StreamReader(req.Body).ReadToEndAsync();
+            var body = JsonSerializer.Deserialize<ChangeStatusEntity>(reuestbody);
+            var result = _buildingService.ChangeStatus(body);
 
-        return new OkObjectResult(result);
+            return new OkObjectResult(result);
+        }
+        catch (Exception ex)
+        {
+            return new OkObjectResult(new { status = 200, message = ex.Message });
+        }
     }
 }

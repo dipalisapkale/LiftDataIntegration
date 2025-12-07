@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using LiftDataIntegration.Data.Interface;
 using LiftDataIntegration.Entity.Model.Response;
 using LiftDataIntegration.Service.Interface;
+using Microsoft.VisualBasic;
 
 namespace LiftDataIntegration.Service
 {
@@ -21,6 +22,18 @@ namespace LiftDataIntegration.Service
         {
              var result = _dashboardData.GetDashboard();
             return result;
+        }
+        public GetDashboardSummaryResponse GetDashboardSummary(string  RunDate) 
+        {
+            var result = _dashboardData.GetDashboardSummary(RunDate);
+            return result;
+        }
+
+        public List<DailyTrendResponse> GetDailyTrend(int Day)
+        {
+            var result = _dashboardData.GetDailyTrend(Day);
+            return result;
+
         }
     }
 }

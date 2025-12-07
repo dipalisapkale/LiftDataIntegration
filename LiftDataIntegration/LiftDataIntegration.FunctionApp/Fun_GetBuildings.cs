@@ -21,13 +21,21 @@ public class Fun_GetBuildings
     
     public async Task<IActionResult> Run([HttpTrigger(AuthorizationLevel.Function, "get")] HttpRequest req,string id)
     {
-        _logger.LogInformation("C# HTTP trigger function processed a request.");
+        try
+        {
+            _logger.LogInformation("C# HTTP trigger function processed a request.");
 
-           string ID = (req.Query["id"]);
+            string ID = (req.Query["id"]);
 
             int Id = Convert.ToInt32(ID);
 
-        var result = _buildingGetAllService.GetBuildings(Id);
-        return new OkObjectResult(result);
+            var result = _buildingGetAllService.GetBuildings(Id);
+            return new OkObjectResult(result);
+        }
+        catch (Exception ex)
+        {
+
+            return new OkObjectResult(new { status = 200, ex.Message });
+        }
     }
 }

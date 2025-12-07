@@ -11,7 +11,7 @@ namespace LiftDataIntegration.Entity.Model.Response
     {
         [JsonPropertyName("totalBuildings")]
         public int TotalBuildings {  get; set; }
-        [JsonPropertyName("totalUnits")]
+        [JsonPropertyName("totalunits")]
         public int TotalUnits { get; set; }
         [JsonPropertyName("totalActiveContracts")]
         public int TotalActiveContracts { get; set; }

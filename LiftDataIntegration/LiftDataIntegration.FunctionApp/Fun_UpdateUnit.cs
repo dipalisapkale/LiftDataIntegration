@@ -22,12 +22,21 @@ public class Fun_UpdateUnit
     [Function("Fun_UpdateUnit")]
     public async Task <ActionResult> Run([HttpTrigger(AuthorizationLevel.Function, "get", "post")] HttpRequest req)
     {
-        _logger.LogInformation("C# HTTP trigger function processed a request.");
+        try
+        {
+            _logger.LogInformation("C# HTTP trigger function processed a request.");
 
-        var requestbody = await new StreamReader(req.Body).ReadToEndAsync();
-        var body = JsonSerializer.Deserialize<UpdateUnitEntity>(requestbody);
+            var requestbody = await new StreamReader(req.Body).ReadToEndAsync();
+            var body = JsonSerializer.Deserialize<UpdateUnitEntity>(requestbody);
 
-        var result = _unitService.UpdateUnit(body);
-        return new OkObjectResult(result);
+            var result = _unitService.UpdateUnit(body);
+            return new OkObjectResult(result);
+
+        }
+        catch (Exception ex)
+        {
+
+            return new OkObjectResult(new {status=200,ex.Message});
+        }
     }
 }

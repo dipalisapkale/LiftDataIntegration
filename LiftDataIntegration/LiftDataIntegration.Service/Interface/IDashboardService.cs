@@ -10,5 +10,7 @@ namespace LiftDataIntegration.Service.Interface
   public interface IDashboardService
     {
         public GetDashboardEntity GetDashboard();
+        public GetDashboardSummaryResponse GetDashboardSummary(string RunDate);
+        public  List<DailyTrendResponse> GetDailyTrend(int Day);
     }
 }

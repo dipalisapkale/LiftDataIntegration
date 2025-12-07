@@ -22,14 +22,21 @@ public class Fun_AuthenticationUser
     [Function("Fun_AuthenticationUser")]
     public async Task <IActionResult> Run([HttpTrigger(AuthorizationLevel.Function, "get", "post")] HttpRequest req)
     {
-        _logger.LogInformation("C# HTTP trigger function processed a request.");
+        try
+        {
+            _logger.LogInformation("C# HTTP trigger function processed a request.");
 
-        
-        var requestBody = await new StreamReader(req.Body).ReadToEndAsync();
-        
-        var body = JsonSerializer.Deserialize<UserAuthenticationRequest>(requestBody);
 
-        var result = _userService.AuthenticateUser(body);
-        return new OkObjectResult(result);
+            var requestBody = await new StreamReader(req.Body).ReadToEndAsync();
+
+            var body = JsonSerializer.Deserialize<UserAuthenticationRequest>(requestBody);
+
+            var result = _userService.AuthenticateUser(body);
+            return new OkObjectResult(result);
+        }
+        catch (Exception ex)
+        {
+            return new OkObjectResult(new { status = 200, message = ex.Message });
+        }
     }
 }

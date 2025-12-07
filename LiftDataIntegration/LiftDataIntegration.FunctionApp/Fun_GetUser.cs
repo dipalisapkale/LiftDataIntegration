@@ -19,10 +19,17 @@ public class Fun_GetUser
     [Function("Fun_GetUser")]
     public IActionResult Run([HttpTrigger(AuthorizationLevel.Function, "get", "post")] HttpRequest req)
     {
-        _logger.LogInformation("C# HTTP trigger function processed a request.");
+        try {
+            _logger.LogInformation("C# HTTP trigger function processed a request.");
 
-        int query = Convert.ToInt32(req.Query["id"]);
-        var result = _userService.GetUser(query);
-        return new OkObjectResult(result);
+            int query = Convert.ToInt32(req.Query["id"]);
+            var result = _userService.GetUser(query);
+            return new OkObjectResult(result);
+        }
+        catch (Exception ex)
+        {
+            return new OkObjectResult(new {status=200,ex.Message});
+
+        }
+        } 
     }
-}

@@ -22,10 +22,18 @@ public class Fun_ChangeStatusOfContract
     [Function("Fun_ChangeStatusOfContract")]
     public async Task<IActionResult> Run([HttpTrigger(AuthorizationLevel.Function, "get", "post")] HttpRequest req)
     {
-        _logger.LogInformation("C# HTTP trigger function processed a request.");
-        var requestbody = await new StreamReader(req.Body).ReadToEndAsync();
-        var body = JsonSerializer.Deserialize<ChangeStatusOfContractEntity>(requestbody);
-        var result = _contractService.ChangeStatusOfContract(body);
-        return new OkObjectResult(result);
+        try
+        {
+            _logger.LogInformation("C# HTTP trigger function processed a request.");
+            var requestbody = await new StreamReader(req.Body).ReadToEndAsync();
+            var body = JsonSerializer.Deserialize<ChangeStatusOfContractEntity>(requestbody);
+            var result = _contractService.ChangeStatusOfContract(body);
+            return new OkObjectResult(result);
+        }
+        catch (Exception ex)
+        {
+
+            return new OkObjectResult(new { status = 200, ex.Message });
+        }
     }
 }

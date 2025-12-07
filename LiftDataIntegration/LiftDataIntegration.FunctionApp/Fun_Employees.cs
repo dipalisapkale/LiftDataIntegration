@@ -18,12 +18,20 @@ public class Fun_Employees
     [Function("GetEmployees")]
     public IActionResult GetEmployees([HttpTrigger(AuthorizationLevel.Function, "get")] HttpRequest req)
     {
-        _logger.LogInformation("C# HTTP trigger function processed a request.");
+        try
+        {
+            _logger.LogInformation("C# HTTP trigger function processed a request.");
 
-        var employees = new List<string>() { "neil", "harshu" };
+            var employees = new List<string>() { "neil", "harshu" };
 
 
 
-        return new OkObjectResult(employees);
+            return new OkObjectResult(employees);
+        }
+        catch (Exception ex)
+        {
+
+            return new OkObjectResult(new { status = 200, ex.Message });
+        }
     }
 }
